@@ -4,7 +4,7 @@ var app = express();
 
 app.get('/status',function(req,res){
     
-    var json = {'code':'zara'};
+    var json = {'code':'nike'};
 
     return res.send(JSON.stringify(json));
 });

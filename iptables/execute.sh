@@ -9,5 +9,5 @@ iptables -A FORWARD -i wlan0 -o eth0 -j ACCEPT
 sh -c "iptables-save > /etc/iptables.ipv4.nat"
 sh -c "echo 1 > /proc/sys/net/ipv4/ip_forward"
 
-yes | cp -rf sysclt.conf /etc/
+yes | cp -rf sysctl.conf /etc/
 sysctl -p
