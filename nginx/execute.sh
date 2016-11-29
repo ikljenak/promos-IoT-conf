@@ -1,4 +1,4 @@
-!#/bin/sh
+#!/bin/bash
 
 apt-get install nginx
 yes | cp -rf default /etc/nginx/sites-available/

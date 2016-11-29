@@ -7,7 +7,7 @@ server {
 	server_name compra.me;
 
 	location / {
-		proxy_pass http://192.168.0.2;
+		proxy_pass http://10.16.32.157;
 	}
 	
 	location /status{

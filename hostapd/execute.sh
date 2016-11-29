@@ -1,4 +1,4 @@
-!#/bin/sh
+#!/bin/bash
 
 apt-get install hostapd
 yes | cp -rf hostapd.conf /etc/hostapd/

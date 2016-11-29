@@ -1,4 +1,4 @@
-!#/bin/sh
+#!/bin/bash
 
 apt-get install iptables
 apt-get install iptables-persistent

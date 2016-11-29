@@ -1,4 +1,4 @@
-!#/bin/sh
+#!/bin/bash
 
 apt-get install isc-dhcp-server
 yes | cp -rf dhcpd.conf /etc/dhcp/
