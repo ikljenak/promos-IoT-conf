@@ -1,0 +1,5 @@
+options {
+        forwarders {
+                8.8.8.8;
+        };
+};
