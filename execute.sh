@@ -1,12 +1,18 @@
 #!/bin/bash
 
-sudo sh hostapd/execute.sh
-sudo sh dhcp/execute.sh
-sudo sh bind/execute.sh
-sudo sh nginx/execute.sh
-sudo sh iptables/execute.sh
+cd hostapd
+sudo sh execute.sh
+cd ../dhcp
+sudo sh execute.sh
+cd ../bind
+sudo sh execute.sh
+cd ../nginx
+sudo sh execute.sh
+cd ../iptables
+sudo sh execute.sh
 
 sudo iwconfig wlan0 txpower 1
 
-sudo sh node/execute.sh
-sh node/run.sh
+cd ../node
+sudo sh execute.sh
+sh run.sh
